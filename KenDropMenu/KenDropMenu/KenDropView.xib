@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KenDropView" customModule="KenDropMenu" customModuleProvider="target">
+            <connections>
+                <outlet property="arrowImg" destination="kVD-Aa-59P" id="e4x-O8-oaZ"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="e4g-LT-ZNQ"/>
+                <outlet property="titleLabel" destination="YgI-39-Dq4" id="c8b-pv-yv2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgI-39-Dq4">
+                    <rect key="frame" x="8" y="10" width="276" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_more_arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="kVD-Aa-59P">
+                    <rect key="frame" x="292" y="10.5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="OC5-9q-IG0"/>
+                        <constraint firstAttribute="width" constant="20" id="hBQ-bW-Jxq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhu-cw-ybz">
+                    <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gOc-PB-III"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YgI-39-Dq4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1kl-Fk-gui"/>
+                <constraint firstItem="kVD-Aa-59P" firstAttribute="leading" secondItem="YgI-39-Dq4" secondAttribute="trailing" constant="8" id="2HU-HC-egE"/>
+                <constraint firstAttribute="trailing" secondItem="kVD-Aa-59P" secondAttribute="trailing" constant="8" id="Yot-2W-Vv4"/>
+                <constraint firstItem="qhu-cw-ybz" firstAttribute="top" secondItem="YgI-39-Dq4" secondAttribute="bottom" constant="8" id="a12-uU-h0N"/>
+                <constraint firstItem="YgI-39-Dq4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="gHc-kK-43W"/>
+                <constraint firstAttribute="trailing" secondItem="qhu-cw-ybz" secondAttribute="trailing" id="pl1-9J-OJx"/>
+                <constraint firstItem="kVD-Aa-59P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="x6s-4A-huL"/>
+                <constraint firstItem="qhu-cw-ybz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ySN-3A-gxH"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-59" y="-122"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu_more_arrow.png" width="128" height="128"/>
+    </resources>
+</document>

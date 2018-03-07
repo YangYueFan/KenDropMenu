@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F224CB51204FD15A009656BA /* KenDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224CB50204FD15A009656BA /* KenDropView.swift */; };
+		F224CB53204FD162009656BA /* KenDropView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F224CB52204FD162009656BA /* KenDropView.xib */; };
+		F2681236204E817D008651CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2681235204E817D008651CA /* AppDelegate.swift */; };
+		F2681238204E817D008651CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2681237204E817D008651CA /* ViewController.swift */; };
+		F268123B204E817D008651CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2681239204E817D008651CA /* Main.storyboard */; };
+		F268123D204E817D008651CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F268123C204E817D008651CA /* Assets.xcassets */; };
+		F2681240204E817D008651CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F268123E204E817D008651CA /* LaunchScreen.storyboard */; };
+		F268124B204E817D008651CA /* KenDropMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268124A204E817D008651CA /* KenDropMenuTests.swift */; };
+		F2681256204E817D008651CA /* KenDropMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2681255204E817D008651CA /* KenDropMenuUITests.swift */; };
+		F2681267204E8ED9008651CA /* menu_more_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F2681266204E8ED9008651CA /* menu_more_arrow.png */; };
+		F268126B204E955C008651CA /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2681269204E955C008651CA /* UIView+Extensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2681247204E817D008651CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F268122A204E817D008651CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2681231204E817D008651CA;
+			remoteInfo = KenDropMenu;
+		};
+		F2681252204E817D008651CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F268122A204E817D008651CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2681231204E817D008651CA;
+			remoteInfo = KenDropMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F224CB50204FD15A009656BA /* KenDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenDropView.swift; sourceTree = "<group>"; };
+		F224CB52204FD162009656BA /* KenDropView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KenDropView.xib; sourceTree = "<group>"; };
+		F2681232204E817D008651CA /* KenDropMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenDropMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2681235204E817D008651CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2681237204E817D008651CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F268123A204E817D008651CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F268123C204E817D008651CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F268123F204E817D008651CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2681241204E817D008651CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2681246204E817D008651CA /* KenDropMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenDropMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F268124A204E817D008651CA /* KenDropMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenDropMenuTests.swift; sourceTree = "<group>"; };
+		F268124C204E817D008651CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2681251204E817D008651CA /* KenDropMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenDropMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2681255204E817D008651CA /* KenDropMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenDropMenuUITests.swift; sourceTree = "<group>"; };
+		F2681257204E817D008651CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2681266204E8ED9008651CA /* menu_more_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_more_arrow.png; sourceTree = "<group>"; };
+		F2681268204E955B008651CA /* KenDropMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KenDropMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2681269204E955C008651CA /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		F268126A204E955C008651CA /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F268122F204E817D008651CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2681243204E817D008651CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F268124E204E817D008651CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2681229204E817D008651CA = {
+			isa = PBXGroup;
+			children = (
+				F2681234204E817D008651CA /* KenDropMenu */,
+				F2681249204E817D008651CA /* KenDropMenuTests */,
+				F2681254204E817D008651CA /* KenDropMenuUITests */,
+				F2681233204E817D008651CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2681233204E817D008651CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2681232204E817D008651CA /* KenDropMenu.app */,
+				F2681246204E817D008651CA /* KenDropMenuTests.xctest */,
+				F2681251204E817D008651CA /* KenDropMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2681234204E817D008651CA /* KenDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F2681263204E8182008651CA /* KenDropMenu */,
+				F2681235204E817D008651CA /* AppDelegate.swift */,
+				F2681237204E817D008651CA /* ViewController.swift */,
+				F2681239204E817D008651CA /* Main.storyboard */,
+				F268123C204E817D008651CA /* Assets.xcassets */,
+				F268123E204E817D008651CA /* LaunchScreen.storyboard */,
+				F2681241204E817D008651CA /* Info.plist */,
+			);
+			path = KenDropMenu;
+			sourceTree = "<group>";
+		};
+		F2681249204E817D008651CA /* KenDropMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F268124A204E817D008651CA /* KenDropMenuTests.swift */,
+				F268124C204E817D008651CA /* Info.plist */,
+			);
+			path = KenDropMenuTests;
+			sourceTree = "<group>";
+		};
+		F2681254204E817D008651CA /* KenDropMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2681255204E817D008651CA /* KenDropMenuUITests.swift */,
+				F2681257204E817D008651CA /* Info.plist */,
+			);
+			path = KenDropMenuUITests;
+			sourceTree = "<group>";
+		};
+		F2681263204E8182008651CA /* KenDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F268126A204E955C008651CA /* UIView+Extensions.h */,
+				F2681269204E955C008651CA /* UIView+Extensions.m */,
+				F2681266204E8ED9008651CA /* menu_more_arrow.png */,
+				F224CB50204FD15A009656BA /* KenDropView.swift */,
+				F224CB52204FD162009656BA /* KenDropView.xib */,
+				F2681268204E955B008651CA /* KenDropMenu-Bridging-Header.h */,
+			);
+			path = KenDropMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2681231204E817D008651CA /* KenDropMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F268125A204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenu" */;
+			buildPhases = (
+				F268122E204E817D008651CA /* Sources */,
+				F268122F204E817D008651CA /* Frameworks */,
+				F2681230204E817D008651CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KenDropMenu;
+			productName = KenDropMenu;
+			productReference = F2681232204E817D008651CA /* KenDropMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2681245204E817D008651CA /* KenDropMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F268125D204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenuTests" */;
+			buildPhases = (
+				F2681242204E817D008651CA /* Sources */,
+				F2681243204E817D008651CA /* Frameworks */,
+				F2681244204E817D008651CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2681248204E817D008651CA /* PBXTargetDependency */,
+			);
+			name = KenDropMenuTests;
+			productName = KenDropMenuTests;
+			productReference = F2681246204E817D008651CA /* KenDropMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2681250204E817D008651CA /* KenDropMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2681260204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenuUITests" */;
+			buildPhases = (
+				F268124D204E817D008651CA /* Sources */,
+				F268124E204E817D008651CA /* Frameworks */,
+				F268124F204E817D008651CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2681253204E817D008651CA /* PBXTargetDependency */,
+			);
+			name = KenDropMenuUITests;
+			productName = KenDropMenuUITests;
+			productReference = F2681251204E817D008651CA /* KenDropMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F268122A204E817D008651CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ken;
+				TargetAttributes = {
+					F2681231204E817D008651CA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F2681245204E817D008651CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2681231204E817D008651CA;
+					};
+					F2681250204E817D008651CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2681231204E817D008651CA;
+					};
+				};
+			};
+			buildConfigurationList = F268122D204E817D008651CA /* Build configuration list for PBXProject "KenDropMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2681229204E817D008651CA;
+			productRefGroup = F2681233204E817D008651CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2681231204E817D008651CA /* KenDropMenu */,
+				F2681245204E817D008651CA /* KenDropMenuTests */,
+				F2681250204E817D008651CA /* KenDropMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2681230204E817D008651CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2681240204E817D008651CA /* LaunchScreen.storyboard in Resources */,
+				F268123D204E817D008651CA /* Assets.xcassets in Resources */,
+				F268123B204E817D008651CA /* Main.storyboard in Resources */,
+				F224CB53204FD162009656BA /* KenDropView.xib in Resources */,
+				F2681267204E8ED9008651CA /* menu_more_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2681244204E817D008651CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F268124F204E817D008651CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F268122E204E817D008651CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2681238204E817D008651CA /* ViewController.swift in Sources */,
+				F268126B204E955C008651CA /* UIView+Extensions.m in Sources */,
+				F224CB51204FD15A009656BA /* KenDropView.swift in Sources */,
+				F2681236204E817D008651CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2681242204E817D008651CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F268124B204E817D008651CA /* KenDropMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F268124D204E817D008651CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2681256204E817D008651CA /* KenDropMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2681248204E817D008651CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2681231204E817D008651CA /* KenDropMenu */;
+			targetProxy = F2681247204E817D008651CA /* PBXContainerItemProxy */;
+		};
+		F2681253204E817D008651CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2681231204E817D008651CA /* KenDropMenu */;
+			targetProxy = F2681252204E817D008651CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2681239204E817D008651CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F268123A204E817D008651CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F268123E204E817D008651CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F268123F204E817D008651CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2681258204E817D008651CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2681259204E817D008651CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F268125B204E817D008651CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KenDropMenu/KenDropMenu/KenDropMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F268125C204E817D008651CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KenDropMenu/KenDropMenu/KenDropMenu-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F268125E204E817D008651CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenDropMenu.app/KenDropMenu";
+			};
+			name = Debug;
+		};
+		F268125F204E817D008651CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenDropMenu.app/KenDropMenu";
+			};
+			name = Release;
+		};
+		F2681261204E817D008651CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenDropMenu;
+			};
+			name = Debug;
+		};
+		F2681262204E817D008651CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenDropMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenDropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenDropMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F268122D204E817D008651CA /* Build configuration list for PBXProject "KenDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2681258204E817D008651CA /* Debug */,
+				F2681259204E817D008651CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F268125A204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F268125B204E817D008651CA /* Debug */,
+				F268125C204E817D008651CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F268125D204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F268125E204E817D008651CA /* Debug */,
+				F268125F204E817D008651CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2681260204E817D008651CA /* Build configuration list for PBXNativeTarget "KenDropMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2681261204E817D008651CA /* Debug */,
+				F2681262204E817D008651CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F268122A204E817D008651CA /* Project object */;
+}
