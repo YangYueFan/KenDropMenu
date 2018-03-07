@@ -127,6 +127,7 @@ class KenDropView: UIView ,UITableViewDelegate,UITableViewDataSource{
             self.menuTable.height = 0
             self.height -= CGFloat(self.dataArr.count > 5 ? 5:self.dataArr.count) * self.rowHeight
         }
+        self.addRotationAnim(isBool: false)
         
     }
     
@@ -137,14 +138,39 @@ class KenDropView: UIView ,UITableViewDelegate,UITableViewDataSource{
             if self.menuTable.height == 0 {
                 self.menuTable.height = CGFloat(self.dataArr.count > 5 ? 5:self.dataArr.count) * self.rowHeight
                 self.height += CGFloat(self.dataArr.count > 5 ? 5:self.dataArr.count) * self.rowHeight
+                self.addRotationAnim(isBool: true)
             }else{
                 self.menuTable.height = 0
                 self.height -= CGFloat(self.dataArr.count > 5 ? 5:self.dataArr.count) * self.rowHeight
+                self.addRotationAnim(isBool: false)
             }
         }
+    }
+    
+    func addRotationAnim(isBool:Bool) {
+        // 1.创建动画
+        let rotationAnim = CABasicAnimation(keyPath: "transform.rotation")
         
-
+        // 2.设置动画的属性
+        if isBool {
+            rotationAnim.fromValue = 0
+            rotationAnim.toValue = Double.pi  //Double.pi
+        }else{
+            rotationAnim.fromValue = Double.pi
+            rotationAnim.toValue = 0  //Double.pi
+        }
+        rotationAnim.repeatCount = 1
+        rotationAnim.duration = 0.25
         
+        rotationAnim.isRemovedOnCompletion = false
+        
+        
+        // 3.将动画添加到layer中
+        self.arrowImg!.layer.add(rotationAnim, forKey: nil)
+        self.arrowImg!.layer.removeAllAnimations()
+        UIView.animate(withDuration: 0.2) {
+            self.arrowImg!.transform = self.arrowImg!.transform.rotated(by: CGFloat(Double.pi))
+        }
     }
     
 }
